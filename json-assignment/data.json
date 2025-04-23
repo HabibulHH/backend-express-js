@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "productName": "Mango",
+      "productPrice": 1.5,
+      "productDescription": "A sweet and juicy tropical fruit.",
+      "productCategory": "Fruits",
+      "productImages": ["https://example.com/mango.jpg", "https://example.com/mango2.jpg"],
+      "productStock": 100,
+      "productRating": 4.5,
+      "productReviews": [
+        {
+          "reviewerName": "John Doe",
+          "reviewText": "Delicious and fresh!",
+          "reviewRating": 5,
+          "reviewDate": "2023-10-01"
+        },
+        {
+          "reviewerName": "Jane Smith",
+          "reviewText": "Good quality, but a bit expensive.",
+          "reviewRating": 4,
+          "reviewDate": "2023-10-02"
+        }
+      ],
+      "productTags": ["tropical", "healthy", "snack"],
+      "productDimensions": {
+        "length": 10,
+        "width": 5,
+        "height": 3
+      }
+    },
+    {
+      "id": 2,
+      "productName": "Apple",
+      "productPrice": 0.5,
+      "productDescription": "A crunchy and sweet fruit.",
+      "productCategory": "Fruits",
+      "productImages": ["https://example.com/apple.jpg", "https://example.com/apple2.jpg"],
+      "productStock": 200,
+      "productRating": 4.7,
+      "productReviews": [
+        {
+          "reviewerName": "Alice Brown",
+          "reviewText": "Crisp and refreshing!",
+          "reviewRating": 5,
+          "reviewDate": "2023-10-03"
+        },
+        {
+          "reviewerName": "Bob White",
+          "reviewText": "Great for snacking.",
+          "reviewRating": 4,
+          "reviewDate": "2023-10-04"
+        }
+      ],
+      "productTags": ["healthy", "snack"],
+      "productDimensions": {
+        "length": 8,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "id": 3,
+      "productName": "Banana",
+      "productPrice": 0.3,
+      "productDescription": "A soft and sweet fruit.",
+      "productCategory": "Fruits",
+      "productImages": ["https://example.com/banana.jpg", "https://example.com/banana2.jpg"],
+      "productStock": 150,
+      "productRating": 4.2,
+      "productReviews": [
+        {
+          "reviewerName": "Charlie Green",
+          "reviewText": "Perfect for smoothies!",
+          "reviewRating": 5,
+          "reviewDate": "2023-10-05"
+        },
+        {
+          "reviewerName": "Diana Blue",
+          "reviewText": "A bit overripe.",
+          "reviewRating": 3,
+          "reviewDate": "2023-10-06"
+        }
+      ],
+      "productTags": ["tropical", "snack"],
+      "productDimensions": {
+        "length": 7,
+        "width": 3,
+        "height": 3
+      }
+    }
+  ]
+  

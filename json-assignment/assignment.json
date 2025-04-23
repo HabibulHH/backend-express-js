@@ -1,0 +1,49 @@
+📝 Assignment: Build a Simple Product API using JSON File Storage
+🎯 Objective
+Build two REST API endpoints using Node.js and Express 
+(or your preferred framework) that return product data saved in a .json file.
+
+// get products
+[
+    {
+      "id": 1,
+      "productName": "Mango",
+      "productPrice": 1.5,
+      "productCategory": "Fruits",
+      "productRating": 4.5,
+      "totalReviews": 2
+    }
+  ]
+  
+  GET /products/1
+  {
+    "id": 1,
+    "productName": "Mango",
+    "productPrice": 1.5,
+    "productDescription": "A sweet and juicy tropical fruit.",
+    "productCategory": "Fruits",
+    "productImages": ["https://example.com/mango.jpg", "https://example.com/mango2.jpg"],
+    "productStock": 100,
+    "productRating": 4.5,
+    "productReviews": [
+      {
+        "reviewerName": "John Doe",
+        "reviewText": "Delicious and fresh!",
+        "reviewRating": 5,
+        "reviewDate": "2023-10-01"
+      },
+      {
+        "reviewerName": "Jane Smith",
+        "reviewText": "Good quality, but a bit expensive.",
+        "reviewRating": 4,
+        "reviewDate": "2023-10-02"
+      }
+    ],
+    "productTags": ["tropical", "healthy", "snack"],
+    "productDimensions": {
+      "length": 10,
+      "width": 5,
+      "height": 3
+    }
+  }
+  

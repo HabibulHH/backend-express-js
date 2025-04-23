@@ -23,7 +23,14 @@ const rateLimiter = rateLimit({
 // Use the users route
 app.use('/api/user',rateLimiter,isValid, usersRoute);
 
-
+app.get('product', (req, res) => {
+ res.send({
+  "productname": "mango",
+  "productid": 1,
+  "productprice": 100,
+  "productdescription": "mango is a fruit",
+ })
+});
 
 // Start the server
 app.listen(PORT, () => {
